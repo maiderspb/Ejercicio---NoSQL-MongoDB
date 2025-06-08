@@ -34,7 +34,7 @@ En lugar de usar tablas y filas como en las bases de datos relacionales, la arqu
 
 # Insertar datos
 
-##Insertar publicaciones con comentarios
+## Insertar publicaciones con comentarios
 
 db.Posts.insertOne({
 title: "Viaje a la montaña",
