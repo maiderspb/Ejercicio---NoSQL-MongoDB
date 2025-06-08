@@ -32,9 +32,9 @@ En lugar de usar tablas y filas como en las bases de datos relacionales, la arqu
 
 # Consultas MongoDB - Base de Datos SocialMediaDB
 
-## 1. Insertar datos
+# Insertar datos
 
-### Insertar publicaciones con comentarios
+##Insertar publicaciones con comentarios
 
 db.Posts.insertOne({
 title: "Viaje a la montaña",
@@ -46,7 +46,7 @@ comments: [
 ]
 });
 
-### Insertar usuarios
+## Insertar usuarios
 
 db.Users.insertOne({
 username: "user1",
