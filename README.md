@@ -165,6 +165,9 @@ db.Users.find().limit(2).pretty();
 
 ## Buscar dos publicaciones por título específico
 
+db.Posts.find({title: { $in: ["Aventura en el Amazonas", "Viaje a la montaña"] }
+}).limit(2).pretty();
+
 db.Posts.find({ title: "Receta de lasaña" }).limit(2).pretty();
 
 # Borrar datos
