@@ -1,4 +1,4 @@
-![banner](../images/The Bridge.png)
+../images/The Bridge.png
 
 ---
 
@@ -23,14 +23,11 @@ MongoDB almacena datos en documentos similares a JSON que pueden variar en estru
 
 ## 🛠️ Tecnologías utilizadas
 
--   Node.js
--   Express
--   MySQL
--   Sequelize
--   Bcrypt
--   JWT (JSON Web Tokens)
--   Multer (para imágenes)
--   Git y GitHub
+- MongoDB: Base de datos NoSQL orientada a documentos.
+
+- Mongo Shell / Compass: Herramientas para interactuar con MongoDB.
+
+- JavaScript: Sintaxis utilizada para las consultas dentro del shell de MongoDB
 
 ---
 # Consultas MongoDB - Base de Datos SocialMediaDB
