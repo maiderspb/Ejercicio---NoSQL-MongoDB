@@ -77,7 +77,7 @@ comments: [
 
 db.Posts.updateOne(
 { title: "Aventura en el Amazonas" },
-{ $set: { body: "Exploración intensa llena de desafíos y paisajes increíbles." } }
+{ $set: { body: "Exploración intensa llena de desafíos y paisajes increíbles." }
 );
 
 ## Actualizar un comentario específico en una publicación
